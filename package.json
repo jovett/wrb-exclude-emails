@@ -1,0 +1,28 @@
+{
+  "name": "excludeemails",
+  "version": "1.0.0",
+  "description": "Node js proxy server to get json list from github through vanilla js ajax request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovett/excludeemails.git"
+  },
+  "keywords": [
+    "nodejs",
+    "proxy",
+    "ajax",
+    "json"
+  ],
+  "author": "Hamza Imranist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jovett/excludeemails/issues"
+  },
+  "homepage": "https://github.com/jovett/excludeemails#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
