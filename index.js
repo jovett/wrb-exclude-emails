@@ -22,8 +22,8 @@ const client = new MongoClient(process.env.MONGO_URI);
 
 
 const getAllDomains = async (req, res) => {
-    const db = client.db("domains");
-    const collection = db.collection('domainNames');
+    const db = client.db("domains-wrb");
+    const collection = db.collection('domainNames-wrb');
     const findResult = await collection.find({}).toArray();
     res.status(200).json({ findResult })
 }
