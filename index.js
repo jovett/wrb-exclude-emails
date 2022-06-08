@@ -35,7 +35,7 @@ const start = async () => {
     try {
         // connect db
         await client.connect();
-        app.listen(PORT, console.log(`Server is listening on port: ${PORT}...`));
+        app.listen(process.env.PORT, console.log(`Server is listening on port: ${PORT}...`));
     } catch (error) {
         console.log(error)
     }
